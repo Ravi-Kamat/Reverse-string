@@ -1,0 +1,47 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeee;
+}
+div{
+    width: 300px;
+    border: 1px solid;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+#text{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: rgb(143, 180, 22);
+    border: 0.5px solid green;
+    font-size:14px;
+    display: block;
+    margin-top: 10px;
+}
+
+div label{
+    font-size: 18px;
+   font-weight: 600;
+    margin-left: 0;
+   
+}
+.btn{
+  color: #fff;
+  width: 100%;
+  background: rgb(41, 215, 41);
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-weight: 400;
+}
